@@ -7,7 +7,7 @@ mac = "01:01:01:01:0D:DE"
 print("Scanning completed...")
 devices = bluetooth.get_available_devices()
 print("Available devices")
-print(devices)
+#print(devices)
 
 print("pairing with mac address")
 if bluetooth.pair(mac):
